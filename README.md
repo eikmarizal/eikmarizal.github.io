@@ -11,7 +11,7 @@ K-Mean clustering use a method of vector quantization for (cluster analysis). Cl
 - Recalculate the average/mean of all data points in a cluster of centroid
 - Assign data points to theirs closest centroids
 
-[![Equation](kmeans_equation.png)](https://www.r-statistics.com/wp-content/uploads/2012/01/equation_1_RinAction2CH16.png)
+![](https://www.r-statistics.com/wp-content/uploads/2012/01/equation_1_RinAction2CH16.png)
 
 ## CREDIT
 [Original post](https://www.r-bloggers.com/k-means-clustering-from-r-in-action/)
