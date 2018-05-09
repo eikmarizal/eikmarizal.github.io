@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Morse Code Translator</title>
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+	<!-- Materialize -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style type="text/css">
+		body {
+			display: flex;
+			min-height: 100vh;
+			flex-direction: column;
+		}
+		main {
+			flex: 1 0 auto;
+		}
+		.material-icons {
+		    text-rendering: optimizeLegibility;
+		}
+		blockquote{
+		  margin: 20px 0;
+		  padding-left: 1.5rem;
+		  border-left: 5px solid #b71c1c;
+		}
+		.input-field textarea[class=materialize-textarea]:focus {
+			border-bottom: 1px solid #b71c1c;
+			box-shadow: 0 1px 0 0 #b71c1c;
+		}
+    </style>
+</head>
+<body>
+	<header>
+		<nav class="top-nav red darken-4">
+			<div class="container">
+				<div class="nav-wrapper">
+					<a class="brand-logo"><i class="material-icons">question_answer</i> Morse Code Translator</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container">
+
+		<div class="row">
+			<blockquote >
+				Encode plain text to Morse code and Decode Morse code to plain text with this simple tool.
+			</blockquote>
+		</div>
+
+		<div class="row">
+
+			<label>Input:</label>
+			<div class="row">
+				<div class="input-field col s12">
+					<textarea rows="10" cols="50" id="msgInput" oninput="MorseTranslator()" placeholder="Enter your text or morse code here" class="materialize-textarea"></textarea>
+				</div>
+			</div>
+
+			<label>Output:</label>
+			<div class="row">
+				<div class="input-field col s12">
+					<textarea rows="10" cols="50" id="msgOutput" class="materialize-textarea"></textarea> <br>
+				</div>
+			</div>
+
+		</div>
+	</main>
+
+	<footer class="page-footer red darken-4">
+		<div class="footer-copyright">
+			<div class="container">
+				Eikma Rizal &copy; 2018  - <a href="https://github.com/eikmarizal/Morse-Code-Translator-V1">GitHub Project Page</a>
+			</div>
+		</div>
+	</footer>
+</body>
+	<!-- load Javascript scrips -->
+	<script type="text/javascript" src="./js/morse.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
+</html>
