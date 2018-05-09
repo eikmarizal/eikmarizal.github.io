@@ -2,18 +2,23 @@
 [![Status](https://img.shields.io/badge/Status-Incomplete-orange.svg)]()
 
 # TERMINOLOGY
-#### Supervised Machine Learning- Combining input from learning to produce useful predictions on unseen data
-#### Label- For example in spam filtering labels could be spam or not spam (target taht we want to predict)
-#### Features- Way we present the data
-#### Label example- Has {features, label}:(x,y) used in training
-#### Unlabeled example- has {features, no label}:(x,y) used in testing
-#### Model- learned by mapping example to predicted label
+- Supervised Machine Learning- Combining input from learning to produce useful predictions on unseen data
+- Label- For example in spam filtering labels could be spam or not spam (target taht we want to predict)
+- Features- Way we present the data
+- Label example- Has {features, label}:(x,y) used in training
+- Unlabeled example- has {features, no label}:(x,y) used in testing
+- Model- learned by mapping example to predicted label
 
-# Example
+# Examples
 ## Linear Regression
 Finding straight line or hyperplane that best fits to set of points
 
+# Google ML Crash Course video
 [![Alt text for your video](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png)](https://youtu.be/qAjFQLydY8E)
+
+## Type of Training models
+- Static model- traine offline and exactly once
+- Dynamic model- trained online and through continuous updates
 
 ## K-Means clustering
 K-Mean clustering use a method of vector quantization for (cluster analysis). Cluster analysis is where grouping task is among similarity to each other for same group.
