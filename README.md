@@ -16,6 +16,9 @@ Finding straight line or hyperplane that best fits to set of points
 # Google ML Crash Course video
 [![Alt text for your video](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png)](https://youtu.be/qAjFQLydY8E)
 
+## Reducing loss
+As we train a model reducing loss will give best trained model. Stochastic Gradient Descent involves one example at a time while for Mini-Batch Gradient Descent batches 10-1000
+
 ## Type of Training models
 - Static model- traine offline and exactly once
 - Dynamic model- trained online and through continuous updates
