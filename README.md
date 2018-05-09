@@ -38,6 +38,50 @@ As we train a model reducing loss will give best trained model. Stochastic Gradi
 - Static model- traine offline and exactly once
 - Dynamic model- trained online and through continuous updates
 
+## Linear Regression
+To estimate real values based on continous variables (using regression line represents by linear equation y=ax+b; where y=dependent variable, a=slope, x=independent variable, b=intercept)
+
+## Type of Linear Regression
+- Simple Linear Regression (one independent variable)
+- Multiple Linear Regression (more than one independent variables)
+
+## Python code for Linear Regression
+```bash
+#Import Library
+#Import other necessary libraries like pandas, numpy...
+from sklearn import linear_model
+#Load Train and Test datasets
+#Identify feature and response variable(s) and values must be numeric and numpy arrays
+x_train=input_variables_values_training_datasets
+y_train=target_variables_values_training_datasets
+x_test=input_variables_values_test_datasets
+# Create linear regression object
+linear = linear_model.LinearRegression()
+# Train the model using the training sets and check score
+linear.fit(x_train, y_train)
+linear.score(x_train, y_train)
+#Equation coefficient and Intercept
+print('Coefficient: \n', linear.coef_)
+print('Intercept: \n', linear.intercept_)
+#Predict Output
+predicted= linear.predict(x_test)
+```
+## R code for Linear Regression
+
+```bash
+#Load Train and Test datasets
+#Identify feature and response variable(s) and values must be numeric and numpy arrays
+x_train <- input_variables_values_training_datasets
+y_train <- target_variables_values_training_datasets
+x_test <- input_variables_values_test_datasets
+x <- cbind(x_train,y_train)
+# Train the model using the training sets and check score
+linear <- lm(y_train ~ ., data = x)
+summary(linear)
+#Predict Output
+predicted= predict(linear,x_test) 
+```
+
 ## K-Means clustering
 K-Mean clustering use a method of vector quantization for (cluster analysis). Cluster analysis is where grouping task is among similarity to each other for same group.
 
