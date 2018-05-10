@@ -38,6 +38,9 @@ As we train a model reducing loss will give best trained model. Stochastic Gradi
 - Static model- traine offline and exactly once
 - Dynamic model- trained online and through continuous updates
 
+## What is Regression Analysis?
+Regression Analysis investigates the relationship between predictor (independent variable) and target (dependent variable) where it is predictive modelling technique. Examples including time series, forecasting as well as finding casual effects relationship between variables.
+
 ## Linear Regression
 To estimate real values based on continous variables (using regression line represents by linear equation y=ax+b; where y=dependent variable, a=slope, x=independent variable, b=intercept)
 
@@ -81,6 +84,13 @@ summary(linear)
 #Predict Output
 predicted= predict(linear,x_test) 
 ```
+## Other type of Regressions
+- Logistic Regression
+- Polynomial Regression
+- Stepwise Regression
+- Ridge Regression
+- Lasso Regression
+- ElasticNet Regression
 
 ## K-Means clustering
 K-Mean clustering use a method of vector quantization for (cluster analysis). Cluster analysis is where grouping task is among similarity to each other for same group.
