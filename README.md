@@ -95,6 +95,8 @@ predicted= predict(linear,x_test)
 ## K-Means clustering
 K-Mean clustering use a method of vector quantization for (cluster analysis). Cluster analysis is where grouping task is among similarity to each other for same group.
 
+![](src/kmeans-steps.png)
+
 ## Steps in K-Means
 - Choose K centroids (K rows randomly select)
 - Assigns every data point to its closest centroid
