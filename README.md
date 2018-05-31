@@ -1,6 +1,19 @@
 [![Progress](https://img.shields.io/badge/Progress-15%25-orange.svg)]()
 [![Status](https://img.shields.io/badge/Status-Incomplete-orange.svg)]()
 
+# Artificial Intelligence vs Machine Learning vs Deep Learning
+
+- Artificial Intelligence(AI) is any technique which enables machines/computers to mimic human behaviour
+- Machine Learning(ML) is subset of AI that use Statistical methods for machines/computers to learn and improve with experience
+- Deep Learning is subset of ML that use Multi-Layer Neural Network computation more feasible
+
+# Knowledge needed to master in this area
+## Mathematics (http://www.deeplearningbook.org/)
+- Linear Algebra
+- Probability Theory & Statistics
+- Multivariate Calculus
+- Algorithm & Complexity
+
 # Type of Machine Learning Algorithms
 - Supervised Learning (From a target (dependent variable) to be predicted from given set of predictors (independent variables)
 - Unsupervised Learning (No target (dependent variable) usually used for clustering)
@@ -11,7 +24,7 @@
 - Example = Regression problem (predict the value of house- continuous value) and Classification problem (determine which is more likely   to happen (exp- Cancer)
 - Unsupervised Machine Learning- Making sense of pattern or insight where we don't know in advance
 - Example = Social network analysis
-- Label- For example in spam filtering labels could be spam or not spam (target taht we want to predict)
+- Label- For example in spam filtering labels could be spam or not spam (target that we want to predict)
 - Features- Way we present the data
 - Label example- Has {features, label}:(x,y) used in training
 - Unlabeled example- has {features, no label}:(x,y) used in testing
