@@ -22,7 +22,7 @@
 # TERMINOLOGY
 - Supervised Machine Learning- Combining input from learning to produce useful predictions on unseen data
 - Example = Regression problem (predict the value of house- continuous value) and Classification problem (determine which is more likely   to happen (exp- Cancer)
-![](src/supervised.png)
+![](src/supervised.PNG)
 - Unsupervised Machine Learning- Making sense of pattern or insight where we don't know in advance
 - Example = Social network analysis
 - Label- For example in spam filtering labels could be spam or not spam (target that we want to predict)
