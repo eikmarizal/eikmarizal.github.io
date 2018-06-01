@@ -4,7 +4,7 @@
 # Artificial Intelligence vs Machine Learning vs Deep Learning
 
 - Artificial Intelligence(AI) is any technique which enables machines/computers to mimic human behaviour
-- Machine Learning(ML) is subset of AI that use Statistical methods for machines/computers to learn and improve with experience
+- Machine Learning(ML) is subset of AI that use Statistical methods for machines/computers to learn without being explicitly programmed and improve with experience
 - Deep Learning is subset of ML that use Multi-Layer Neural Network computation more feasible
 
 # Knowledge needed to master in this area
@@ -30,6 +30,8 @@
 - Unlabeled example- has {features, no label}:(x,y) used in testing
 - Model- learned by mapping example to predicted label
 
+- > Arthur Samuel: Field of study that gives computers the ability to learn without being explicitly programmed
+- > Tom Mitchell: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.
 # List of Machine Learning Algorithms (Examples)
 ## Linear Regression
 Finding straight line or hyperplane that best fits to set of points
