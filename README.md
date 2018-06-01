@@ -9,10 +9,10 @@
 
 # Knowledge needed to master in this area
 ## Mathematics (http://www.deeplearningbook.org/)
-- Linear Algebra
-- Probability Theory & Statistics
-- Multivariate Calculus
-- Algorithm & Complexity
+- [X] Linear Algebra
+- [X] Probability Theory & Statistics
+- [X] Multivariate Calculus
+- [X] Algorithm & Complexity
 
 # Type of Machine Learning Algorithms
 - Supervised Learning (From a target (dependent variable) to be predicted from given set of predictors (independent variables)
@@ -22,6 +22,7 @@
 # TERMINOLOGY
 - Supervised Machine Learning- Combining input from learning to produce useful predictions on unseen data
 - Example = Regression problem (predict the value of house- continuous value) and Classification problem (determine which is more likely   to happen (exp- Cancer)
+![](src/supervised.png)
 - Unsupervised Machine Learning- Making sense of pattern or insight where we don't know in advance
 - Example = Social network analysis
 - Label- For example in spam filtering labels could be spam or not spam (target that we want to predict)
@@ -30,8 +31,8 @@
 - Unlabeled example- has {features, no label}:(x,y) used in testing
 - Model- learned by mapping example to predicted label
 
-- > Arthur Samuel: Field of study that gives computers the ability to learn without being explicitly programmed
-- > Tom Mitchell: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.
+> Arthur Samuel: Field of study that gives computers the ability to learn without being explicitly programmed.
+> Tom Mitchell: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.
 # List of Machine Learning Algorithms (Examples)
 ## Linear Regression
 Finding straight line or hyperplane that best fits to set of points
