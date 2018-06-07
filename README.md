@@ -36,6 +36,15 @@
 # List of Machine Learning Algorithms (Examples)
 ## Linear Regression
 Finding straight line or hyperplane that best fits to set of points
+
+Multi Feature Variables in Linear Regression
+![](src/Multi_feature.PNG)
+
+Scaling and Mean Normalization
+![](src/Mean_normalization.PNG)
+
+Comparison Gradient Descent and Normal Equation
+![](src/Comparare_gradient.PNG)
 ## Logistic Regression
 ## Decision Tree
 ## SVM
