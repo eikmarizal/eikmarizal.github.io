@@ -43,6 +43,8 @@ Multi Feature Variables in Linear Regression
 Scaling and Mean Normalization
 ![](src/Mean_normalization.PNG)
 
+![Alt Text](https://raw.githubusercontent.com/mattnedrich/GradientDescentExample/master/gradient_descent_example.gif)
+
 Comparison Gradient Descent and Normal Equation
 ![](src/Comparare_gradient.PNG)
 ## Logistic Regression
