@@ -46,7 +46,7 @@ Scaling and Mean Normalization
 ![Alt Text](https://raw.githubusercontent.com/mattnedrich/GradientDescentExample/master/gradient_descent_example.gif)
 
 Comparison Gradient Descent and Normal Equation
-![](src/Comparare_gradient.PNG)
+![](src/Compare_gradient.PNG)
 ## Logistic Regression
 ## Decision Tree
 ## SVM
