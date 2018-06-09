@@ -19,6 +19,8 @@
 - Unsupervised Learning (No target (dependent variable) usually used for clustering)
 - Reinforcement Learning (Machine is trained to make decisions based on algorithm to learn from previous experience)
 
+![alt text](https://s-media-cache-ak0.pinimg.com/736x/8b/23/3e/8b233e2d7f26b00d0c594894917a127b--supervised-learning-variables.jpg "Logo Title Text 1")
+
 # TERMINOLOGY
 - Supervised Machine Learning- Combining input from learning to produce useful predictions on unseen data
 - Example = Regression problem (predict the value of house- continuous value) and Classification problem (determine which is more likely   to happen (exp- Cancer)
@@ -33,6 +35,7 @@
 
 > Arthur Samuel: Field of study that gives computers the ability to learn without being explicitly programmed.
 > Tom Mitchell: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.
+
 # List of Machine Learning Algorithms (Examples)
 ## Linear Regression
 Finding straight line or hyperplane that best fits to set of points
@@ -47,19 +50,6 @@ Scaling and Mean Normalization
 
 Comparison Gradient Descent and Normal Equation
 ![](src/Compare_gradient.PNG)
-## Logistic Regression
-## Decision Tree
-## SVM
-## Naive Bayes
-## kNN
-## K-Means
-## Random Forest
-## Dimension Reduction Algorithm
-## Gradient Boosting Algorithms:
-- GBM
-- XGBoost
-- LightGBM
-- CatBoost
 
 ## Reducing loss
 As we train a model reducing loss will give best trained model. Stochastic Gradient Descent involves one example at a time while for Mini-Batch Gradient Descent batches 10-1000
@@ -122,8 +112,23 @@ predicted= predict(linear,x_test)
 - Lasso Regression
 - ElasticNet Regression
 
+## Logistic Regression
+## Decision Tree
+## SVM
+## Naive Bayes
+## kNN
+## K-Means
+## Random Forest
+## Dimension Reduction Algorithm
+## Gradient Boosting Algorithms:
+- GBM
+- XGBoost
+- LightGBM
+- CatBoost
+
 ## K-Means clustering
-K-Mean clustering use a method of vector quantization for (cluster analysis). Cluster analysis is where grouping task is among similarity to each other for same group.
+K-Mean clustering use a method of vector quantization for (cluster analysis). Cluster analysis is where grouping task is among similarity to each other for same group. It is an unsupervised learning.
+![alt text](https://i.stack.imgur.com/cIDB3.png "Logo Title Text 1")
 
 ![](src/kmeans-steps.png)
 
@@ -135,6 +140,12 @@ K-Mean clustering use a method of vector quantization for (cluster analysis). Cl
 
 ![](https://www.r-statistics.com/wp-content/uploads/2012/01/equation_1_RinAction2CH16.png)
 
+## Determine the best value for K
+Using Elbow method, whithin a range of values of K, example (1 to 10) then calculate the sum of squared errors.
+![alt text](https://qph.ec.quoracdn.net/main-qimg-678795190794dd4c071366c06bf32115-c "Logo Title Text 1")
+Calculation for sum of square errors
+![alt text](http://i.imgur.com/aLKDhbF.png "Logo Title Text 1")
+
 # CREDIT/REFERENCES
 ## Blog
 [r-bloggers-K-Means](https://www.r-bloggers.com/k-means-clustering-from-r-in-action/)
@@ -142,3 +153,5 @@ K-Mean clustering use a method of vector quantization for (cluster analysis). Cl
 [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
 ## Website
 [Common-machine-learning-algorithms](https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/)
+## Github
+[Siraj Raval](https://github.com/llSourcell)
