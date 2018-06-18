@@ -155,3 +155,48 @@ Calculation for sum of square errors
 [Common-machine-learning-algorithms](https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/)
 ## Github
 [Siraj Raval](https://github.com/llSourcell)
+
+## Big Data
+Three major sources of big data
+- People (social media)
+- Organizations (transaction info)
+- Machines (sensor)
+
+## Characteristics of Big Data
+- Volume (size)
+- Variety (complexity)
+- Velocity (speed)
+- Valence (connectedness)
+- Veracity (quality)
+- Value (integrating different types of data sources)
+
+## Big Data Engineering
+- [X] Step 1- Acquire data (identify data sets, retrive data, query data)
+- [X] Step 2- Prepare data sets:
+- Explore (undertsand data,preliminary analysis)
+- Pre-process (clean, integrate, package)
+- [X] Step 3- Analysis data (using analytic techniques, build models)
+- [X] Step 4- Report (interpret, summarize, visualize, post-process)
+- [X] Step 5- Act (apply results)
+
+## Hadoop Ecosystem
+- Enable scalibility
+- Handle fault tolerence
+- Optimized for a variety of data types
+- Facilited shared environment
+- Community supported
+
+## Big Data Ecosystem
+![](src/hadoop.PNG)
+- [X] HDFS -distributed file system (scalable storage, fault tolerence)
+- [X] Hadoop YARN -flexible scheduling, resource management
+- [X] Hadoop MapReduce -simplify programming model
+- Map -> apply()
+- Reduce -> summarize()
+- [X] Hive & Pig -High-level programming models
+- Hive -SQL-like query
+- Pig -dataflow scripting
+- [X] Giraph -specilized model for graph processing
+- [X] Storm, Spark & Flink -real-time and in-memeory processing
+- [X] Hbase, Cassandra & MongoDB -NoSQl for non-files
+- [X] Zookeeper -schronization, high-availability, configuration)
