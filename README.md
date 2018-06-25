@@ -200,3 +200,10 @@ Three major sources of big data
 - [X] Storm, Spark & Flink -real-time and in-memeory processing
 - [X] Hbase, Cassandra & MongoDB -NoSQl for non-files
 - [X] Zookeeper -schronization, high-availability, configuration)
+
+- **$ hadoop fs -ls /** Show all directories
+- **$ hadoop fs -du test/mytext.txt** Show size of the file
+- **$ cat > mytext.txt** Create text file
+- **$ hadoop fs -mkdir test** Make directory called test
+- **$hadoop fs -cat test/mytext.txt | grep my** Search keyword #my in text file and display it
+- **$hadoop fs -du s test** Show size of the folder
