@@ -201,9 +201,15 @@ Three major sources of big data
 - [X] Hbase, Cassandra & MongoDB -NoSQl for non-files
 - [X] Zookeeper -schronization, high-availability, configuration)
 
+## Hadoop Command Lines
 - **$ hadoop fs -ls /** Show all directories
 - **$ hadoop fs -du test/mytext.txt** Show size of the file
 - **$ cat > mytext.txt** Create text file
 - **$ hadoop fs -mkdir test** Make directory called test
 - **$hadoop fs -cat test/mytext.txt | grep my** Search keyword #my in text file and display it
 - **$hadoop fs -du s test** Show size of the folder
+
+## Hadoop Components
+- MapReduce - Framework for processing huge datasets of distributed problems using large number of nodes
+
+
