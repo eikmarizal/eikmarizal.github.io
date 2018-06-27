@@ -211,5 +211,15 @@ Three major sources of big data
 
 ## Hadoop Components
 - MapReduce - Framework for processing huge datasets of distributed problems using large number of nodes
+- Flume - A service for moving large amounts of data around a cluster soon after the data is produced
+## HDFS is designed for:
+ Large files, streaming data access, and commodity hardware
+## What is the purpose of the shuffle operation in Hadoop MapReduce?
+ To transfer each mapper's output to the appropriate reducer node based on a partitioning function
+## Which of the following is a duty of the DataNodes in HDFS?
+ Store and retrieve blocks when told to by clients or the NameNode
+## Which of the following is a duty of the NameNode in HDFS?
+ Maintain the file system tree and metadata for all files and directories
+## Which component determines the specific nodes that a MapReduce task will run on?
 
 
