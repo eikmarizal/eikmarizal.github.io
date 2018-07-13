@@ -222,4 +222,21 @@ Three major sources of big data
  Maintain the file system tree and metadata for all files and directories
 ## Which component determines the specific nodes that a MapReduce task will run on?
 
-
+## Data Lakes
+- Big data storage for current and future analysis
+## lambda architecture
+- A method to process streaming data by utilizing batch processing and real time processing
+## Difference between data lakes and data warehouses
+- Data lakes house raw data while data warehouses contain pre-formatted data
+## Schema-on-read
+- Data is stored as raw data until it is read by an application where the application assigns structure
+## Schema-on-write
+- The process where data is pre-formatted prior to being read but the schema is loaded on read
+## streaming
+- Utilizing real time data to compute and change the state of an application continuously
+## streaming data
+- Data is unbounded in size but requires only finite time and space to process it
+- Data manipulation is near real time
+- Does not ping the source interactively for a response upon receiving the data
+- independent computations that do not rely on previous or future data
+- Small time windows for working with data
