@@ -240,3 +240,10 @@ Three major sources of big data
 - Does not ping the source interactively for a response upon receiving the data
 - independent computations that do not rely on previous or future data
 - Small time windows for working with data
+
+## Data models
+- Conceptual Data Model
+- Logicsk Data Model
+- Physicak Data Model
+
+
