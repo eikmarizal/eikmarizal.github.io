@@ -246,4 +246,16 @@ Three major sources of big data
 - Logicsk Data Model
 - Physicak Data Model
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+## Information Security
+[![Progress](https://img.shields.io/badge/Progress-5%25-orange.svg)]()
+[![Status](https://img.shields.io/badge/Status-Incomplete-orange.svg)]()
+
+- [X] Penetration testing
+- [X] Vulnerable testing
+- [X] Firewall/Antivirus
+- [X] Commands in Kali Linux
+
+
 
