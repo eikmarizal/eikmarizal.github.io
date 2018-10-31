@@ -257,5 +257,86 @@ Three major sources of big data
 - [X] Firewall/Antivirus
 - [X] Commands in Kali Linux
 
+## Android App Security
 
+Android provides a sandboxed app execute env. A customized embedded Linux system interacts
+with the phone hardware and an off-processor cellular radio. 
+
+Java compiler creates JVM bytecode, the Dalvik dx compiler consumes the .class files, recompiles them to
+Dalvik bytecode and writes the app into single.dex file.
+
+The process consists of translation, reconstruction and interpretation of 3 basic elements of the app
+: the constant pools, class definitions and data segment.
+
+Constant pool: constant (references to other classes,method names, numerical constant)
+Class definitions: basic infos(access flags, class names)
+Data segment: method code executed by target VM number of DVM registers used, local variable table,
+and operand stack sizes), class and instance variable
+
+## Risks
+- Rapidly developed and deployed applications
+- Coarse permission systems
+- Privacy invading behaviors
+- malware
+- limited security models
+
+## Aims
+- Design Dalvik decompiler ded
+- Analyze 21 million LOC
+
+## Hypothesis
+- Misuse of privacy sensitive infos (phone identifiers (IMEI,IMSI,ICC-ID), geo location
+
+
+Giveaway of the day
+- -esque (in the style of) ex: Phone identiﬁers, e.g., IMEI, IMSI, and ICC-ID, were used for everything from “cookie-esque” tracking to accountsnumbers.
+- renaissance
+- posit (put in position) - Wherepossible, we identify root causes and posit the severity ofdiscoveredvulnerabilities. 
+- breadth (the distance between two) - we consider a breadth of concerns including both dangerous functionality and vulnerabilities.
+- substantially -significant extent
+
+## Computer science terms
+- IPC (Interprocess Comm)
+- Intent (
+
+## Differences of JVM and DVM
+- Application structure
+	-Java apps more than one .class files
+	-Dalvik apps single .dex contain all classes
+- Register architecture
+	-JVM (stack-based)
+	-DVM (register-based)
+- Instruction set
+	-Java has 200 opcodes
+	-Dalvik has 218 opcodes
+- Constant pool structure
+	-Java app replicete elements within .class files (referer and referent method names)
+	-dx compiler eliminates the replication
+- Control flow structure (loops, switch statements, exception handlers)	
+	-Java bytecode structure loosely mirrowa the source code
+	-Dalvik bytecode vice versa
+- Ambiguous primitive types (int, float, long, dounle)
+	-Java bytecode variable assignments distinguish
+	-Dalvik use same opcodes (untyped)
+- Null references
+	-Dalvik not specify instead use zero value constant
+- Comparison of object references
+	-Java bytecode uses typed opcodes (ifnull and ifnotnull)
+	-Dalvik bytecode use more simplistic
+- Storage of primitive types in arrays
+	-Java bytecode is unambiguous
+	-Dalvik opcode uses ambiguous opcodes (aget foe int/float)
+	
+## Ded decompiler
+- Application retargetting (recovering typing info,translating constant pool and retargeting the bytecode)
+	-Type inference
+		- identify class and method constants and variables
+		- infers register types by observing how they are used in subsequent operation with known type operands
+	-Constant pool conversion
+		-Java maintains for each class, Java bytecode uses constant pool for most references
+		-Dalvik uses single constant pool, Dalvik bytecode places primitive type constant in bytecode
+	-Method retargeting
+		- First process the bytecode to reorganize structures that cannot be directly retargeted
+		- Linearly traverse the DVM bytecode and translate to JVM			
+- Optimization and Decompilation
 
