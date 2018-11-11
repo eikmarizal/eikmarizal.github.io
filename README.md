@@ -340,3 +340,9 @@ Giveaway of the day
 		- Linearly traverse the DVM bytecode and translate to JVM			
 - Optimization and Decompilation
 
+## Development of Android Apk
+
+## Prerequisites
+- [X] Java
+- [X] Java Development Kit
+- [X] Android Studio
