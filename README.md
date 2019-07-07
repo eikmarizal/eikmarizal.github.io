@@ -346,3 +346,17 @@ Giveaway of the day
 - [X] Java
 - [X] Java Development Kit
 - [X] Android Studio
+
+# Wireless Commands
+- [X] iwconfig
+- [X] iwlist - iwlist wlan0 scanning
+- [X] ifconfig wlan0 up
+- [X] iw wlan0 scan
+- [X] airmon-ng start wlan0 11
+- [X] aireplay-ng --test wlan0mon
+- [X] iw dev wlan0 set type monitor
+- [X] aireplay-ng --test -i wlan0 wlan1
+- [X] airserv-ng -d wlan0
+- [X] airdump-ng --bssid --channel wlan
+- [X] aircrack-ng 
+- [X]wlan.fctype==2
