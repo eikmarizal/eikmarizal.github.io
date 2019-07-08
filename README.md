@@ -374,3 +374,11 @@ Giveaway of the day
 - [X] Ransomware
 - [X] Data breaches
 - [X] APT10 Cloud Hopper
+
+# Nmap and Wireshark for Network Scanning
+- nmap -sn/ -sP 'ip address' --packet-trace / ip.addr == 'ip address' || arp
+- nmap(-- reason,disable-arp-ping)
+
+# References
+- https://securityboulevard.com/2019/07/cyber-security-roundup-for-june-2019/
+- https://www.hackingarticles.in
