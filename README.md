@@ -359,4 +359,18 @@ Giveaway of the day
 - [X] airserv-ng -d wlan0
 - [X] airdump-ng --bssid --channel wlan
 - [X] aircrack-ng 
-- [X]wlan.fctype==2
+- [X] wlan.fctype==2
+
+# Android hacking
+- [X] Install termux
+- [X] mv -v ngrok /$HOME
+- [X] chmod +x ngrok
+- [X] ./ngrok authtoken "..."
+- [X] ./ngrok http 80
+- [X] weeman
+
+# Security Updates
+- [x] Patching
+- [X] Ransomware
+- [X] Data breaches
+- [X] APT10 Cloud Hopper
