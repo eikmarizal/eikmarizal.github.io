@@ -383,15 +383,20 @@ Giveaway of the day
 - nmap -sn/ -sP/ -sA/ -PN/ -PS/ -PA/ -sP -PU/( scan using UDP ping)/-o /-v/ nmap -v -O --osscan-guess ipaddress/ -sV/ -PO/ -sU/ 'ip address' --packet-trace / ip.addr == 'ip address' || arp
 - nmap(-- reason,disable-arp-ping)/ (--open, display open port only)/ (-p 80, specific port)
 - -p (p1, p2) (Ipaddress), -p (ip1-ip2) (Ipaddress)
+- tcp.port eq 80(display TCP traffic port traffic moving across port 80)
+- ip.src == 192.168.0.1
 
 # Saving result
 - nmap ipaddress >output.txt
 - nmap -oN output.txt ipaddress/ nmap -oG scan.Nmap.txt ipaddress/ nmap -oX scan.nmap.xml ipaddress
 
-#  Windows CMD /Netstat/ ping
+#  Windows CMD /Netstat/ ping /tracert/ ARP
 - ipconfig, cls, ipconfig /all,ipconfig /displaydns
 - netstat -a, netstat -no (Display the top active connections), netstat -ano (combine -a and -no), netstat -r(display routing table), options -t, -u, -w, and -x show active TCP, UDP, RAW, or Unix socket connections, netstat -s -p tcp -f (To have netstat display statistics (-s) about TCP traffic (-p), and also force the addresses to be displayed in FQDN format (-f)), netstat -e -t 5(displaying the network interface statistics (-e) and have them updated every 5 seconds we will use (-t 5), netstat -an 1 | find “80”(check every second and print the results if a process starts listening on TCP port 80), ping -t ipaddress(continuously send packets until the command to terminate is entered),ping -n 30 -l 1000 ipaddress(number of echo counts to 30, each having a size of 1000 bytes)
+- tracert -h ipaddress, route PRINT, netstat -r
+- arp -a, arp -av, arp -a -N ipaddress
 
+# AlienVault/ DVWA/ OSForensics/ ProDiscover Basic
 
 # References
 - https://securityboulevard.com/2019/07/cyber-security-roundup-for-june-2019/
