@@ -382,6 +382,7 @@ Giveaway of the day
 	- -- exclude/ -F (fast scanning)
 - nmap -sn/ -sP/ -sA/ -PN/ -PS/ -PA/ -sP -PU/( scan using UDP ping)/-o /-v/ nmap -v -O --osscan-guess ipaddress/ -sV/ -PO/ -sU/ 'ip address' --packet-trace / ip.addr == 'ip address' || arp
 - nmap(-- reason,disable-arp-ping)/ (--open, display open port only)/ (-p 80, specific port)
+- namp --source-port/ nmap --data-length
 - -p (p1, p2) (Ipaddress), -p (ip1-ip2) (Ipaddress)
 - tcp.port eq 80(display TCP traffic port traffic moving across port 80)
 - ip.src == 192.168.0.1
