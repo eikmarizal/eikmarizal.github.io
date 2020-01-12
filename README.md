@@ -408,3 +408,15 @@ Giveaway of the day
 # References
 - https://securityboulevard.com/2019/07/cyber-security-roundup-for-june-2019/
 - https://www.hackingarticles.in
+
+
+# Vulnerability Assessment Vs Penetration Testing
+
+## Phases in Penetration Testing (With tools)
+- [X] Information gathering (NMAP, Metasploit)
+- [X] Enumeration (NMAP, Metasploit)
+- [X] Vunerability assessment (OpenVAS)
+- [X] Gaining access (Metasploit)
+- [X] Escalating privileges (Metasploit)
+- [X] Maintaining access (Metasploit)
+- [X] Covering tracks (Metasploit)
