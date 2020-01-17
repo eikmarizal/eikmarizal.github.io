@@ -409,8 +409,22 @@ Giveaway of the day
 - https://securityboulevard.com/2019/07/cyber-security-roundup-for-june-2019/
 - https://www.hackingarticles.in
 
+# Terminologies
+- Asset (Any data, component, device that supports information-related that should be protected)
+- Vulnerability (Weakness or flaw on the asset)
+-Threat (possible danger tothe system)
+- Exploit (Takes advantages of vulnerability in an asset)
+- Risk (Risk= Threat * vulnerabiities * impact)
 
-# Vulnerability Assessment Vs Penetration Testing
+# Penetration Test
+Set of methods and procedures for testing or protecing security of an organization.
+
+# Vulnerability Assessments
+To check for vulnerabilities and document accordingly.
+
+# Rules of Engagement
+- Milestones (keep track progress)
+- Methodologies (OSSTMM, NIST, OWASP)
 
 ## Phases in Penetration Testing (With tools)
 - [X] Information gathering (NMAP, Metasploit)
