@@ -434,3 +434,9 @@ To check for vulnerabilities and document accordingly.
 - [X] Escalating privileges (Metasploit)
 - [X] Maintaining access (Metasploit)
 - [X] Covering tracks (Metasploit)
+
+## Security Analyst Tracks
+# Auditing and Incident Response
+- Legal and regulatory compliance
+- Vulnerability Scanning
+- PenTest Testing (Black box, White box, Grey box
