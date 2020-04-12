@@ -440,3 +440,20 @@ To check for vulnerabilities and document accordingly.
 - Legal and regulatory compliance
 - Vulnerability Scanning
 - PenTest Testing (Black box, White box, Grey box
+
+# Security Threat
+## Categories
+ - STRIDE model, including spoofing, tampering, repudiation, information disclosure, denial of service, and escalation of privilege
+ 
+ # Spoofing
+ - MITM (identity spoofing used to intercept communication)
+ - Email spoofing (DMARC is the Domain-Based Message Authentication, Reporting, and Conformance which helps detect and prevent email spoofing, SPF is the Sender Policy Framework, helps detect forged sender addresses, DKIM is the Domain Key Identified Mail)
+ - Location spoofing
+ 
+ # Integrity and Tampering Threats
+ - salami attack, where the attack is broken down into smaller attacks
+ 
+ # Authentication and Non-repudiation
+ # Information Privacy and Confidentiality
+ 
+ 
