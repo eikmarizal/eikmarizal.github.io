@@ -476,4 +476,35 @@ To check for vulnerabilities and document accordingly.
  - Sudo scanning // sudo -sA IPADDRESS
  - Saving scan to file // nmap #anything > $(date + %F) #anything.txt
  
+ # Network IDS
+ - Snort, Bro/Zeek, Suricata
  
+ # Host IDS
+ - OSSEC
+ 
+ # IDS with Snort
+ - sudo apt install snort
+ - sudo snort -v
+ - sudo nano /etc/snort/rules/local.rules //alert icmp any any -> #localnetwork any (msg:"ICMP"; sid:1;)
+ - sudo snort -T -c /etc/snort/rules/local.rules
+ - sudo snort -d -l ./ -c /etc/snort/rules/local.rules
+ - tail alert
+ 
+ # IDS with Bro
+ - sudo apt install bro bro-aux bro-common bro-pkg broctl
+ - sudo nano /etc/bro/node.cfg //change interface
+ - sudo nano /etc/bro/network.cfg //change local network
+ - sudo broctl
+ - install
+ - deploy
+ - ls /var/log/bro/current/
+ 
+ # Evading IDS with Nmap //-n skipping DNS resolution
+ - sudo nmap -n -D#decoyaddress,#decoyaddress #targetaddress (Decoy Scan)
+ - sudo nmap --scan-delay 973ms #targetaddress (Slow Scan)
+ - sudo nmap -sI #intermediateaddress -n #targetaddress 
+ 
+ # Brute force analysis
+ - sudo nmap -p 143,993 --script imap-brute #targetaddress
+ - sudo nmap --script dos -Pn #targetaddress //-Pn skip host discovery
+ - sudo nmap --max-parallelism 512 -Pn --script-slowloris --script-args http-slowloris.runforever=true #targetaddress
