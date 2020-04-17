@@ -445,15 +445,35 @@ To check for vulnerabilities and document accordingly.
 ## Categories
  - STRIDE model, including spoofing, tampering, repudiation, information disclosure, denial of service, and escalation of privilege
  
+# Mitigate escalation of privilege threats
+- Auditing, log monitoring and certificate authority signing
+
+# Mitigate brute force attacks
+- Attempt limiting, HMAC, salted hashes and rate limiting
+
+# Slowloris attack (Dos attack //An attack that renders systems unresponsive)
+
+# Causes lead to security misconfiguration threats
+- Open directories, weak defaults, open configuration pages and sample code
+ 
  # Spoofing
  - MITM (identity spoofing used to intercept communication)
  - Email spoofing (DMARC is the Domain-Based Message Authentication, Reporting, and Conformance which helps detect and prevent email spoofing, SPF is the Sender Policy Framework, helps detect forged sender addresses, DKIM is the Domain Key Identified Mail)
  - Location spoofing
  
  # Integrity and Tampering Threats
- - salami attack, where the attack is broken down into smaller attacks
+ - salami attack, where the data is broken into smaller modifications to avoid detection
  
  # Authentication and Non-repudiation
+ -  non-repudiation //An undeniable transaction
+ 
  # Information Privacy and Confidentiality
+ - Properties of data //Data protection, confidentiality, copyright
+ 
+ # Nmap
+ - Check local interfaces and routes // nmap --iflist
+ - Scanning // nmap -sn IPADDRESS
+ - Sudo scanning // sudo -sA IPADDRESS
+ - Saving scan to file // nmap #anything > $(date + %F) #anything.txt
  
  
