@@ -286,10 +286,7 @@ and operand stack sizes), class and instance variable
 
 ## Hypothesis
 - Misuse of privacy sensitive infos (phone identifiers (IMEI,IMSI,ICC-ID), geo location
-
-
-Giveaway of the day
-- -esque (in the style of) ex: Phone identiﬁers, e.g., IMEI, IMSI, and ICC-ID, were used for everything from “cookie-esque” tracking to accountsnumbers.
+ - esque (in the style of) ex: Phone identiﬁers, e.g., IMEI, IMSI, and ICC-ID, were used for everything from “cookie-esque” tracking to accountsnumbers.
 - renaissance
 - posit (put in position) - Wherepossible, we identify root causes and posit the severity ofdiscoveredvulnerabilities. 
 - breadth (the distance between two) - we consider a breadth of concerns including both dangerous functionality and vulnerabilities.
@@ -297,7 +294,7 @@ Giveaway of the day
 
 ## Computer science terms
 - IPC (Interprocess Comm)
-- Intent (
+- Intent
 
 ## Differences of JVM and DVM
 - Application structure
@@ -508,3 +505,8 @@ To check for vulnerabilities and document accordingly.
  - sudo nmap -p 143,993 --script imap-brute #targetaddress
  - sudo nmap --script dos -Pn #targetaddress //-Pn skip host discovery
  - sudo nmap --max-parallelism 512 -Pn --script-slowloris --script-args http-slowloris.runforever=true #targetaddress
+ 
+ # Nmap script with its test
+ - auth-spoof //Test for Identd malware
+ - smtp-strangeport //Test for mail service malware
+ - http-malware-host //Test for web server malware
