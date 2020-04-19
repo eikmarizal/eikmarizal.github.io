@@ -510,3 +510,9 @@ To check for vulnerabilities and document accordingly.
  - auth-spoof //Test for Identd malware
  - smtp-strangeport //Test for mail service malware
  - http-malware-host //Test for web server malware
+ 
+ # User account discovery
+ - id, w, who, groups, users
+ - lslogin -u, last
+ - cat /etc/shadows, cat /etc/passwd
+ - awk -F: '($2=="") {print $1 }'< /etc/passwd
