@@ -516,3 +516,9 @@ To check for vulnerabilities and document accordingly.
  - lslogin -u, last
  - cat /etc/shadows, cat /etc/passwd
  - awk -F: '($2=="") {print $1 }'< /etc/passwd
+ 
+ # Firewall
+ - Network host- based
+ - Dual- homed host
+ - Router based firewall
+ - Screen host
