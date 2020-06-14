@@ -522,3 +522,9 @@ To check for vulnerabilities and document accordingly.
  - Dual- homed host
  - Router based firewall
  - Screen host
+ 
+ # VPN
+ - Point-to-point Tunneling Protocol (EAP, CHAP)
+ - Layer 2 Tunneling Protocol (EAP, CHAP, MS-CHAP, PAP, SPAP, Kerberos)
+ - IPSec (Tunnel mode, Transport mode)
+ - SSL/TLS
