@@ -528,3 +528,16 @@ To check for vulnerabilities and document accordingly.
  - Layer 2 Tunneling Protocol (EAP, CHAP, MS-CHAP, PAP, SPAP, Kerberos)
  - IPSec (Tunnel mode, Transport mode)
  - SSL/TLS
+ 
+ # Penetration Testing
+ - Port scanning (Nmap, Sparta, Masscan, Dmitry)
+ - Firewall scanning (Nessus, Metasploit)
+ - Vulnerable scanning
+ 
+ # Type of PenTest
+ - Planning and information gathering
+ - Active information gathering
+ - Gain access using discovered exploits
+ - Maintain access and collect restricted data
+ - Cover footprints and delete logs
+ - 
