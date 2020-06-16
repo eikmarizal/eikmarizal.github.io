@@ -544,7 +544,7 @@ To check for vulnerabilities and document accordingly.
  # Buffer Overflow Exploits
  ## Prevention
  - Stack canaries
- - Non- executetable stack policy
+ - Non- executable stack policy
  - Randomize memory stack
  
 # Privilege Escalation Attacks
