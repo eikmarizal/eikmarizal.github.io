@@ -540,4 +540,22 @@ To check for vulnerabilities and document accordingly.
  - Gain access using discovered exploits
  - Maintain access and collect restricted data
  - Cover footprints and delete logs
- - 
+ 
+ # Buffer Overflow Exploits
+ ## Prevention
+ - Stack canaries
+ - Non- executetable stack policy
+ - Randomize memory stack
+ 
+# Privilege Escalation Attacks
+- Horizontal Privilege Escalation
+- Vertical Privilege Escalation
+
+# Client- side Attacks
+- Clickjacking
+- Cross Origin Resource Sharing
+- Cross-site Scripting (XSS)
+- Form Hijacking
+- Open redirection
+- HTML injection
+- Malware
