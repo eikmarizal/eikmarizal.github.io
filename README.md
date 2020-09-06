@@ -559,3 +559,26 @@ To check for vulnerabilities and document accordingly.
 - Open redirection
 - HTML injection
 - Malware
+
+# Incident Response Stages
+1. Preparation
+2. Identification
+3. Containment
+4. Eradication
+5. Recovery
+6. Lessons Learned
+
+# Tools in Incident Respone
+- Sleuth Kit (digital forensic)
+- Metasploit Tollkit
+- Websense (reduce client side attack)
+- FireEye Security Orchestrator
+- Sancp (Network connection profiler)
+- Nagios (packet logging)
+- Squid/DansGuardian
+- Base (alert console for Snort)
+- Nmap
+- Squill (Network security monitoring)
+- Wireshark
+
+# OODA Loop (Observe, Orient, Decode, Act)
