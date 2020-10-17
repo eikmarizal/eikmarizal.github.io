@@ -582,3 +582,44 @@ To check for vulnerabilities and document accordingly.
 - Wireshark
 
 # OODA Loop (Observe, Orient, Decode, Act)
+
+# Malware
+- Virus (Install w/o user consent)
+- Worm (Self-propagating over network)
+- Trojan 
+- Spyware/adware
+- Ransomware 
+
+# Antimalware
+# Security awareness
+
+# Digital forensics hardwares
+- Write blocker
+- Forensic RAID disk array
+- Mobile device extractor
+- Forensic duplicator
+
+# Digital forensics softwares
+- dd / disk dump command
+- Forensic toolkit /FTK
+- EnCase
+- BlackBag MacQuisition
+- x1 Social Discovery
+- Helix, Cellerite, Sysinternal Suite
+- md5sum
+- get-filehash
+
+# Android tools
+- Logcat
+- ClockworkMod Recovery
+- Linux Memory Extractor
+- ANdroid SDK
+
+# iOS Tools
+- iTunes Backup
+- iPhone Analyzer
+- iPhone Explorer
+- Lantern Forensics
+
+- nc -l -vvv -p 8888 > filename.dd
+- volatility -f filename.dd imageinfo, pslist, connscan, clipboard
