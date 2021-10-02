@@ -623,3 +623,46 @@ To check for vulnerabilities and document accordingly.
 
 - nc -l -vvv -p 8888 > filename.dd
 - volatility -f filename.dd imageinfo, pslist, connscan, clipboard
+
+# Nmap
+- nmap --top-ports 10 192.168.0.1 (top 10 used ports)
+- nmap -sU -p 53,80,3389 192.168.0.1 (selective UDP ports)
+- nmap -sT 192.168.0.1 (port scanning using TCP connect)
+- nmap -F 192.168.0.1 (scan for the 100 common ports)
+- nmap -p 1-100 192.168.0.1 (scan for the range of port)
+- nmap -sn -PS80 192.168.0.0/24 (send the SYN message to a specific port)
+- nmap -p 80 192.168.0.0/24
+- nmap -PR 192.168.0.0/24 (send the ARP requests)
+- nmap -sP 192.168.0.0/24 (Using ping for discovering a host)
+- nmap 192.168.0.* (wildcard to scan an IP range)
+- nmap --traceroute 192.168.0.0/24 (trace the path)
+- nmap -sP 192.168.0.0/24 (ping scan)
+- nmap -sn 192.168.0.0/24 (scan without ping)
+- nmap -O 192.168.0.3 (operating system detection)
+- nmap -O --osscan-limit 192.168.0.0/24 (skip the hosts that are not up and running and scan for the operating system only on the live hosts)
+- nmap -O --osscan-guess 192.168.0.3 (attempt to detect the operating system)
+- nmap -A 192.168.0.6 (perform fingerprinting)
+
+# Hping
+- hping3 192.168.0.1 --icmp (ICMP discovery of a single host)
+- hping3 192.168.0.1 --icmp -c 5 (discovery for a limited number)
+- hping3 intranet --scan 80 -S (scan for a specific TCP port)
+- hping3 intranet --scan 22,80,443 -S (scan for multiple ports)
+- hping3 192.168.0.1 --scan 1-80 -S (scan for a range of ports)
+- hping3 192.168.0.1 --scan 1-65535 -S (scan the entire TCP port range)
+- hping3 -8 0-100 -S 192.168.0.1
+-8 = Enable SCAN mode.
+0-100 = Range of ports to scan.
+-S = set SYN flag
+
+# Nslookup
+- nslookup *domain
+- nslookup -type=A *domain* (check for any A records for domain)
+- nslookup -type=soa *domain* (display the authoritative (primary) name server)
+- nslookup -type=A -debug *domain* (verify how long a record is cached)
+- nslookup -query=MX *domain* (details of the mail server)
+- nslookup -type=ns *domain* (NS record maps a domain name to a list of the DNS servers that are authoritative)
+- nslookup practicelabs.com *domain* (name resolution using a specific DNS server)
+- nslookup -timeout=10 *domain* (change the default timeout to wait for a reply)
+
+
