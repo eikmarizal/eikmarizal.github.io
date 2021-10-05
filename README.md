@@ -624,6 +624,8 @@ To check for vulnerabilities and document accordingly.
 - nc -l -vvv -p 8888 > filename.dd
 - volatility -f filename.dd imageinfo, pslist, connscan, clipboard
 
+Reference: https://www.practice-labs.com/
+
 # Nmap
 - nmap --top-ports 10 192.168.0.1 (top 10 used ports)
 - nmap -sU -p 53,80,3389 192.168.0.1 (selective UDP ports)
@@ -662,7 +664,13 @@ To check for vulnerabilities and document accordingly.
 - nslookup -type=A -debug *domain* (verify how long a record is cached)
 - nslookup -query=MX *domain* (details of the mail server)
 - nslookup -type=ns *domain* (NS record maps a domain name to a list of the DNS servers that are authoritative)
-- nslookup practicelabs.com *domain* (name resolution using a specific DNS server)
+- nslookup *domain* (name resolution using a specific DNS server)
 - nslookup -timeout=10 *domain* (change the default timeout to wait for a reply)
 
+# Setup Honeypot
+- apt-get install kali-archive-keyring
+- wget http://downloads.sourceforge.net/project/pentbox18realised/pentbox-1.8.tar.gz
+- tar -zxvf pentbox-1.8.tar.gz
+- cd pentbox-1.8/
+- ./pentbox.rb
 
