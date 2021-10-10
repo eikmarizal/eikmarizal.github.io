@@ -723,3 +723,12 @@ Reference: https://www.practice-labs.com/
 - filetype: pdf report
 - intitle: report
 
+# Harvester
+- theHarvester -d *URL* -l 500 -b google
+(-d parameter is used for the domain name. The -l parameter is used for the number of results. The -b parameter is used for the source of information)
+
+# Recon-ng
+- recon-ng
+- keys list
+- modules load hackertarget
+- options set SOURCE *URL*
