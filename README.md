@@ -674,3 +674,52 @@ Reference: https://www.practice-labs.com/
 - cd pentbox-1.8/
 - ./pentbox.rb
 
+# Penetration Testing
+- Planning (project scope, logistics & preliminary activities)
+- Reconnaisance (passive and active info gathering)
+- Scanning (deeper than reconnaisance, vuln assessment)
+- Gaining access
+- Maintaining access
+- Covering tracks
+- Analysis
+- Reporting
+
+# Cyber attack
+- Reconnaisance
+- Scanning
+- Gaining aceess
+- Maintaining access
+- Covering tracks
+
+# Scanning tools
+- Nmap, nikto, openVAS, SQLmap, Nessus
+
+# Credential testing tools
+- Hashcat, Medusa, THC-Hydra, CeWL, John the ripper, Cain and abel, mimikatz, Patator, Dirbuster, W3AF
+
+# Contact Types
+- MSA (Mater service agreement)
+- NDA (Non-disclosure agreement)
+- SOW (Statement of work)
+
+# Resources
+- Swagger (REST API doc)
+- WSDL/WADL (WSDL or WADL documents are XML documents that describe the SOAP-based or RESTful Web services)
+
+# Rules of engagement
+- defines how penetration testing will be conducted
+-  timeline, targets (Locations,Systems,Applications,Third-party service provider), data handling, resources
+
+# Compliance-based Assessments
+- PCI-DSS (deal with credit, debit, and cash card transactions)
+- HIPAA (applies to health care providers and organizations)
+- SOX (public companies, financial and IT)
+- GLBA (applicable to financial organizations)
+- FIPS 140-2 (applicable to the hardware, software, and firmware solutions)
+
+# Google Hacking
+- site: URL report
+- link URL report
+- filetype: pdf report
+- intitle: report
+
