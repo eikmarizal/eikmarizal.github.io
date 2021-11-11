@@ -732,3 +732,10 @@ Reference: https://www.practice-labs.com/
 - keys list
 - modules load hackertarget
 - options set SOURCE *URL*
+
+# Wireless
+- iw dev
+- iwlist wlan0 sacn | grep SSID
+- wpa_passphrase <SSID_name> <Pass> > <name>.conf
+- wpa_supplicant -Dwext -iwlan0 -c<name>.conf
+
