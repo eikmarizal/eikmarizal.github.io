@@ -738,4 +738,13 @@ Reference: https://www.practice-labs.com/
 - iwlist wlan0 sacn | grep SSID
 - wpa_passphrase <SSID_name> <Pass> > <name>.conf
 - wpa_supplicant -Dwext -iwlan0 -c<name>.conf
+	
+# EFS
+- cipher /e/d *.*
+	
+# Bitlocker
+- manage-bde -status
 
+# fdisk -l
+apt-get install cryptsetup
+cryptsetup -y -v luksFormat /dev/sdb
