@@ -748,3 +748,15 @@ Reference: https://www.practice-labs.com/
 # fdisk -l
 apt-get install cryptsetup
 cryptsetup -y -v luksFormat /dev/sdb
+cryptsetup -v status
+mkfs.ext4
+unmount
+cryptsetup luksClose
+cyrptsetup luksOpen
+
+# Hashing
+- get-filehash
+- sha256sum
+
+# SSL
+- nmap -sV --script ssl-enum-cipher -p 443 (public facing IP)
