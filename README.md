@@ -760,3 +760,10 @@ cyrptsetup luksOpen
 
 # SSL
 - nmap -sV --script ssl-enum-cipher -p 443 (public facing IP)
+	
+# Configuration Management Process
+- Planning
+- Identify
+- Provision control
+- Monitor, logging, accounting
+
