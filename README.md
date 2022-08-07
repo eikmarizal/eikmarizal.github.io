@@ -766,4 +766,19 @@ cyrptsetup luksOpen
 - Identify
 - Provision control
 - Monitor, logging, accounting
-
+	
+# Server side attack
+- Forged PKI cert
+- cryptographic downgrade
+- Directory traversal
+- injections attack
+- HTTP intercept
+- poor error handling
+	
+	
+# client side attack
+- javascript
+- browser extension
+- MITM
+- web browser escape
+- VM hopping or escape
