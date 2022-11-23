@@ -782,3 +782,7 @@ cyrptsetup luksOpen
 - MITM
 - web browser escape
 - VM hopping or escape
+
+# Security Principle
+- CIA Triad (Confidentiality, Accessibility and Integrity)
+- Risk management process (risk assessment, analysis, mitigation, remediation and communication)
