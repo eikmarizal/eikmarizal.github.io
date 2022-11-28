@@ -786,3 +786,9 @@ cyrptsetup luksOpen
 # Security Principle
 - CIA Triad (Confidentiality, Accessibility and Integrity)
 - Risk management process (risk assessment, analysis, mitigation, remediation and communication)
+
+# Incident Response
+- Preparation
+- Detection and analyst
+- Containment, eradication and recovery
+- Post incident activity
