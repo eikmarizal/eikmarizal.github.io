@@ -792,3 +792,6 @@ cyrptsetup luksOpen
 - Detection and analyst
 - Containment, eradication and recovery
 - Post incident activity
+
+# Access control concept
+- Objects, subjects, rules
