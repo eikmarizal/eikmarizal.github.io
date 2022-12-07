@@ -795,3 +795,11 @@ cyrptsetup luksOpen
 
 # Access control concept
 - Objects, subjects, rules
+	
+# Networking
+- Hub 
+- Switch
+- Router
+- Firewall
+- Server
+- Endpoint
