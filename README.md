@@ -805,6 +805,17 @@ cyrptsetup luksOpen
 - Endpoint
 
 # Ports
-``` 
-Test 
-```
+- 
+	
+# Type of threats
+- Spoofing
+- Phishing
+- DDOS
+- Virus
+- Worm
+- MITM
+- Side Channel
+- APT
+- Insider Threat
+- Malware
+- Trojan
