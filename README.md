@@ -819,3 +819,11 @@ cyrptsetup luksOpen
 - Insider Threat
 - Malware
 - Trojan
+
+# Network design
+- Network segmentation
+- DMZ
+- VLANs
+- VPN
+- Defense in depth
+- NAC
