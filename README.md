@@ -827,3 +827,6 @@ cyrptsetup luksOpen
 - VPN
 - Defense in depth
 - NAC
+
+# Data security
+- Data handling (create, store, use, share, archive, destroy)
