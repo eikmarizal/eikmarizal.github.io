@@ -830,3 +830,10 @@ cyrptsetup luksOpen
 
 # Data security
 - Data handling (create, store, use, share, archive, destroy)
+
+# Cloud computing
+- Deliver of computing services over the internet.
+- Public, private, hybrid, and multi-cloud
+- IaaS (Lift-and-shift migration, Testing and development)
+- Paas (Development framework, Analytics or business intelligence)
+- SaaS (Email and messaging, Business productivity applications, Finance and expense tracking)
