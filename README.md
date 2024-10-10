@@ -837,3 +837,35 @@ cyrptsetup luksOpen
 - IaaS (Lift-and-shift migration, Testing and development)
 - Paas (Development framework, Analytics or business intelligence)
 - SaaS (Email and messaging, Business productivity applications, Finance and expense tracking)
+  
+# ISO/IEC 27001:2022
+- Total number control 93, 11 new
+- Categorize: Organization, people, physical & Technological
+- SoA (Statement of Applicability)
+
+# ISO/IEC 27002:2022
+- Control type
+- Information Security Principle
+- Cybersecurity concept
+- Operational capabilities
+- Security Domain
+  
+# Risk Management Process ISO 27005:2022
+- Risk Identification
+- Risk Analysis
+- Risk Evaluation
+- Risk Treatment
+- Risk Acceptance
+
+# Types of risks
+- Strategic
+- Financial
+- Compliance/legal
+- Operational
+
+  # NIST CSF Function
+  - Identify
+  - Protect
+  - Detect
+  - Respond
+  - Recover
