@@ -869,3 +869,18 @@ cyrptsetup luksOpen
   - Detect
   - Respond
   - Recover
+ 
+  # Security Activities
+  - Network security
+  - Endpoint security
+  - Patch managment
+  - Encryption
+  - Identity governance and administration
+  - Proving assurance
+ 
+  # Risk asessment
+  - Identify
+  - Assess risk
+  - Analyze risk
+  - Determine risk tolerance
+  - Set control
