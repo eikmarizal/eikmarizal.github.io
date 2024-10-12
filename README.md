@@ -884,3 +884,16 @@ cyrptsetup luksOpen
   - Analyze risk
   - Determine risk tolerance
   - Set control
+
+  # Vulnerability scanning
+  - Discover
+  - Assess
+  - Report
+  - Remediated
+  - Validate
+ 
+  # Patch Management
+  - Risk
+  - Document
+  - Govern
+  - Audit
