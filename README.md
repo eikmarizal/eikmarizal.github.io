@@ -914,3 +914,11 @@ cyrptsetup luksOpen
 - chnage control
 - Configuration management
 - patching & upgrading
+
+# User Account Management
+- Account provising
+- Authentication
+- Privilage management
+- Account recovery
+- Monitoring
+- Termination & suspension
