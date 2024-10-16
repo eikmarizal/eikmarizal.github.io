@@ -906,3 +906,11 @@ cyrptsetup luksOpen
 - Assess security control
 - Authorize information system
 - Monitor security control
+
+# Vulnerability Management Process
+- Risk management
+- Asset inventory
+- Vulnerability identification
+- chnage control
+- Configuration management
+- patching & upgrading
