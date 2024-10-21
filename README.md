@@ -922,3 +922,10 @@ cyrptsetup luksOpen
 - Account recovery
 - Monitoring
 - Termination & suspension
+
+# Structure of SLA
+- Executive summary
+- Service desc
+- Service Level Mnagement
+- Role and resposibility
+- Appendence
