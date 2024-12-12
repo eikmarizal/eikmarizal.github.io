@@ -929,3 +929,15 @@ cyrptsetup luksOpen
 - Service Level Mnagement
 - Role and resposibility
 - Appendence
+
+# Mitigation
+- Injection (code review, input/data validation, safe APis, minimal privileges)
+- Broken authentication (long complex random, https, secure cookies, expire/time out, generate new, MFA)
+- Sensitive data exposure (disable display internal error, encrypt data in transit/rest, secure protocol/algorithm, disable caching response with sensitive data)
+- XML external entity (avoid serialization sensitive data, whitelisting, WAF. code review)
+- Broken access control (invalidate tokens/cookies, forced login/logout, restriction to directory)
+- Security misconfiguration (hardening, defaults are change, install only required framework, review sec configuration)
+- Cross site scripting XSS (filtering/sanitization input, enable Content Securitry Policy, use framework rather coding from scratch, filter out dangerous html characters to its encoded format)
+- Insecure deserialization (encrypt of serialization data)
+- Using components with known vulnerability (regular patching, security forum (CVE, fixes))
+- Insufficent logging & monitoring (monitoring tarffic/log, csirt)
