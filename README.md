@@ -941,3 +941,51 @@ cyrptsetup luksOpen
 - Insecure deserialization (encrypt of serialization data)
 - Using components with known vulnerability (regular patching, security forum (CVE, fixes))
 - Insufficent logging & monitoring (monitoring tarffic/log, csirt)
+
+# DLP
+## Endpoint DLP policy
+- Protects data on devices
+- Prevents data exfiltration
+- Provides consistent enforcement
+- Increase user awareness
+
+## Endpoint DLP implementation
+- Onboard devices
+- Configure settings
+- Define policies
+- Simulate policies
+- Deploy policies
+- Monitor & respond
+
+## Configure settings for endpoint DLP
+- File path exclusion
+- Browser and domain restrictions
+- JIT protection
+
+## Deploy MS Purview browser extension
+- Real-time enforcement
+- Activity tracking
+
+## Enforce policies actions
+- Uploading files to cloud services
+- Printing sensitive files
+- Copying data to clipboard
+- Copying to USB/removeable storage
+- Copying to network shares
+
+## DLP alerting and monitoring
+- Ms Defender XDR
+- MS Purview
+
+## DLP alert lifecycle
+1. Trigger
+2. Notify
+3. Triage
+4. Investigate
+5. Remediate
+6. Tune
+
+## DLP policies in MS Purview
+- Single/aggregate event alerts
+- E3/G3 supports single alerts/E5 or higher aggregate
+- Alert available 30 days/ MS Defender XDR up to 6 months
