@@ -989,3 +989,54 @@ cyrptsetup luksOpen
 - Single/aggregate event alerts
 - E3/G3 supports single alerts/E5 or higher aggregate
 - Alert available 30 days/ MS Defender XDR up to 6 months
+
+# Implement and manage MS Purview Insider Risk Management
+## Types of insider risks
+- Malicious
+- Accidental
+
+## Insider Risk Management Process
+- Define policies
+- Analyze activity
+- Trigger alerts
+- Take action
+- Maintain privacy
+
+## Plan for Insider Risk Management
+- Define stakeholders
+- Ensure prerequisites
+- Customize settings
+- Test before deployment
+
+## Prepare for Insider Risk Management
+- Requires MS 365 E5 licensing
+- Audit logging enable
+- Connected data sources
+- Role assignments
+- Common settings: policy indicators, privacy controls, detection groups, notifications & integrations
+
+## Insider Risk Management workflow
+- Detect risks
+- Analyze & prioritize
+- Investigate cases
+- Notify & remediate
+- Optimize & improve
+
+## Reports in Insider Risk Managment
+- Alert report
+- Case report
+- User activity report
+- Analytics report
+
+## Adaptive protection
+- Context-aware detection
+- Dynamic policy enforcement
+- Automate mitigation
+
+## Configure Adaptive protection
+- DLP policies
+- Data Lifecycle Management
+- Conditional Access
+ 
+# Protect data in AI environment
+- Data Security Posture Management (DSPM) for AI
