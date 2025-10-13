@@ -1040,3 +1040,10 @@ cyrptsetup luksOpen
  
 # Protect data in AI environment
 - Data Security Posture Management (DSPM) for AI
+
+## Retention and data lifecycle
+- Create
+- Classify
+- Protect
+- Retain
+- Dispose
