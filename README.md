@@ -1047,3 +1047,13 @@ cyrptsetup luksOpen
 - Protect
 - Retain
 - Dispose
+
+# Threat protection with MS Defender XDR
+## Attack Chain Models
+-MITRE ATT&CK Framework (Reconnaissance, Weaponization, Delivery, Expoitation, Installation Command and Control, Lateral Movement, Action on the Objective)
+
+# Data Protection
+- Know your data
+- Protect your data
+- Prevent data loss
+- Govern your data
