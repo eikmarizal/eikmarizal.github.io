@@ -1057,3 +1057,11 @@ cyrptsetup luksOpen
 - Protect your data
 - Prevent data loss
 - Govern your data
+
+# Ms Purview Compliance solutions
+- eDiscovery
+- Auduting solutions
+- Information Protection
+- Insider Risk
+
+<img width="683" height="393" alt="image" src="https://github.com/user-attachments/assets/38177d3f-0f7f-48cd-8ed5-fe166d6bdaef" />
