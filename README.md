@@ -1010,7 +1010,7 @@ cyrptsetup luksOpen
 
 ## Prepare for Insider Risk Management
 - Requires MS 365 E5 licensing
-- Audit logging enable
+- Audit logging enabled
 - Connected data sources
 - Role assignments
 - Common settings: policy indicators, privacy controls, detection groups, notifications & integrations
@@ -1022,7 +1022,7 @@ cyrptsetup luksOpen
 - Notify & remediate
 - Optimize & improve
 
-## Reports in Insider Risk Managment
+## Reports in Insider Risk Management
 - Alert report
 - Case report
 - User activity report
@@ -1050,7 +1050,7 @@ cyrptsetup luksOpen
 
 # Threat protection with MS Defender XDR
 ## Attack Chain Models
--MITRE ATT&CK Framework (Reconnaissance, Weaponization, Delivery, Expoitation, Installation Command and Control, Lateral Movement, Action on the Objective)
+-MITRE ATT&CK Framework (Reconnaissance, Weaponization, Delivery, Exploitation, Installation, Command and Control, Lateral Movement, Action on the Objective)
 
 # Data Protection
 - Know your data
@@ -1058,10 +1058,58 @@ cyrptsetup luksOpen
 - Prevent data loss
 - Govern your data
 
-# Ms Purview Compliance solutions
+# Ms Purview Compliance Solutions
 - eDiscovery
-- Auduting solutions
+- Auditing solutions
 - Information Protection
 - Insider Risk
 
 <img width="683" height="393" alt="image" src="https://github.com/user-attachments/assets/38177d3f-0f7f-48cd-8ed5-fe166d6bdaef" />
+
+# ISO/IEC 27001:2022 Lead Auditor
+- ISO 27001: Information Security Management System (ISMS)
+- ISO 42001: Artificial Intelligence Management System (AIMS)
+
+# PDCA lifecycle
+- Plan, Do, Check & Act
+
+# Structure ISO 27001
+- Clause 1: Scope
+- Clause 2: Normative References
+- Clause 3: Terms and Definitions
+- Clause 4-10: Core management system elements
+Annex A: Provides a detailed list of controls
+
+# Executing the Risk Assessment
+- Step 1: Establish and Document Risk Assessment Criteria
+  How to measure risks (risk matrix)
+  Set acceptable/unacceptable risk threshold
+- Step 2: Identify Key Assets to Protect
+  Use scenario-based risk assessment: Identify: Risk Owner, Likelihood & Impact, Criticality
+- Step 3: Identify Risks Associated with Critical Scenarios
+- Step 4: Perform an Analysis of Each Risk
+  Inherent Likelihood: Unlikely to Very Likely
+  Impact: Very Low to Critical
+  Inherent Risk (Inherent Likelihood * Impact)
+  Qualitative (judgement-based) or quantitative (data-driven)
+- Step 5: Develop Risk Treatment Plan
+  Accept, Mitigate, Transfer, Avoid
+  Maintain accepted/avoided risks in the risk register for monitoring
+- Step 6: Reperform an Analysis of Each Risk
+  Reassesses risks (Residual Likelihood * Impact)
+
+# Statement of Applicability
+- Control name & number
+- Applicable/not applicable
+- Justification
+
+# Planning internal audit
+Step 1: Specify audit scope
+Step 2: Set the Internal Audit Schedule
+Step 3: Select an auditor based on competence & impartiality
+Step 4: Review and approve the audit program
+Step 5: Execute Internal Audit
+
+- ISO/IEC 17021
+- ISO/IEC 27006
+- IAF MD
