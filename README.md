@@ -1113,3 +1113,14 @@ Step 5: Execute Internal Audit
 - ISO/IEC 17021
 - ISO/IEC 27006
 - IAF MD
+
+# Core Board Responsibility
+- Capital allocation & resource prioritization
+- Risk appetite definition & management
+- Shareholder & stakeholder value protection
+
+# Common Board Questions
+- How does our cybersecurity posture potentially impact the business
+- What's our exposure from the latest breach?
+- How do we compare to other industry/peers?
+
