@@ -1123,4 +1123,10 @@ Step 5: Execute Internal Audit
 - How does our cybersecurity posture potentially impact the business
 - What's our exposure from the latest breach?
 - How do we compare to other industry/peers?
+--------------------------------------------------------------------
 
+# CISSP Notes
+
+Domain 1: Security and Risk Management
+Due Diligence - maintain due care
+Due Care - prudent man rule
