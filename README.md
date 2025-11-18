@@ -1130,3 +1130,28 @@ Step 5: Execute Internal Audit
 Domain 1: Security and Risk Management
 Due Diligence - maintain due care
 Due Care - prudent man rule
+
+Domain 2: Asset Security
+Sata lifecycle (Create, store, use, share, archive, destroy)
+The data lifecycle (Creation, Classification, Storage, Usage, Archive, Destruction) - Domain 7
+
+Data classification:
+Class 0, 1, 2, 3
+public, sensitive, private, confidential - Non-Gov/public
+unclassified, confidential, secret, top secret - Gov
+
+Data Security Controls
+Marking, labelling, handling, classification
+Data handling
+Data destruction (erasing, clearing/overwriting, purging, degaussing, destruction)
+Record retention
+Tape backup security
+
+Domain 3: Security Architecture & Engineering
+Security Defaults
+
+Security models (Biba, Star Model, Bell-LaPadula)
+Security capabilities (TPM, encryption/decryption)
+
+Cryptanalytic attacks
+
