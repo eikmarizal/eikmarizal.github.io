@@ -1154,4 +1154,13 @@ Security models (Biba, Star Model, Bell-LaPadula)
 Security capabilities (TPM, encryption/decryption)
 
 Cryptanalytic attacks
+Secure defaults
+Fail securely
+Trust but verify
+
+Privacy by design
+7 principles from IAPP
+
+Security Model- To determine how security will be implemented, aht subjects can access the syatem, and what objact will have access to.
+
 
