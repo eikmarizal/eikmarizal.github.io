@@ -1161,6 +1161,41 @@ Trust but verify
 Privacy by design
 7 principles from IAPP
 
-Security Model- To determine how security will be implemented, aht subjects can access the syatem, and what objact will have access to.
+Security Model- To determine how security will be implemented, which subjects can access the system, and which objects will have access to.
+
+State Machine Model, Information Flow Model (Biba &Bell-LaPadula), Non-Interference Model, Lattice-Based Model, Clark-Wilson, Take Grant Model, Brewer and Nash Model, Graham-Denning Model
+
+Dedicated Mode, Multilevel Mode, System High Mode, Compartmented Mode
+
+Common Criteria (ISO-IEC 15408), TCSEC, ITSEC
+
+Common Criteria
+-Description of Assets
+-Identification of Threats
+-Analysis & Rating of Threats
+-Determination of Security Objectives
+-Selection of Security Functional Requirements
+
+Covert Channels: Covert timing, covert storage
+
+MAC, DAC, Non-DAC, Rule-based access control
+
+Hierarchical environment, compartmentalized environment, hybrid environment
+
+Techniques for ensuring CIA
+- Confinement
+- Bounds
+- Isolation
+
+Memory types (EPROM = UVEPROM, EEPROM), flash memory
+Storage (Primary, secondary (removable media), random access storage, sequential access storage)
+Hypervisor (Type I hypervisor, Type II)
+
+CASB, time-of-check-to-time-of-use
+
+Functional order of security controls
+Deterrence, denial, detection, delay
+
+
 
 
