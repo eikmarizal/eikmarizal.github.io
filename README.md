@@ -1196,6 +1196,61 @@ CASB, time-of-check-to-time-of-use
 Functional order of security controls
 Deterrence, denial, detection, delay
 
+Physical security controls
+Administrative, logical, physical
+
+Domain 4
+Micro-segmentation (SDN, VXLAN, SD-Wan, Encapsulation)
+Wireless (Li-fi, Zigbee, satellite)
+Cellular Networks
+
+CCMP, FCoE, iSCSI
+EAP, PEAP, LEAP
+
+Stateless, stateful
+Application, host-based, virtual
+
+Bastion Host, Screened Host
+
+Teardrop Attack, Fraggle Attack, Land Attack
+RADIUS, TACACS+, Diameter
+kerberos
+
+Need to know, Least Privilege (Just-in-Time), Separation of Duties and Responsibilities
+
+Gait Analysis
+
+SAML, Oauth 2.0, OpenID
+
+Discretionary Access Control, Role Based Access Control, Rule-based access control, Attribute Based Access Control, Mandatory Access Control
+
+Dictionary attacks, Brute force, Spoofed logon screens, sniffer attacks, spoofing attacks, social engineering, phishing, whaling, vishing, Access aggregation, Tempest, white noise
+
+War dialing, sniffing, eavesdropping, dumpster diving, social engineering
+
+Collusion, separation of duties, job rotation
+
+Sampling, Statistical sampling, clipping
+
+patch , vulnerability, change, configuration management
+
+Military &intelligence, Business, Financial, Terrorist, Grudge, Thrill attacks
+
+BCP steps:
+Project scope & planning
+Business impact assessment
+Continuity planning
+Approval & implementation
+
+read-throught test, structured walk-through, simulation test, parallel test, full interruption test
+
+electronic vaulting, remote journaling, remote mirroring
+
+SW-CMM
+
+File, service, boot sector, macro infection
+
+
 
 
 
