@@ -1250,7 +1250,64 @@ SW-CMM
 
 File, service, boot sector, macro infection
 
+CISSP
+why will you will pass cissp kelly
+destination cert mind map
+
+Domain 1
+Security and risk management
+
+The canons:
+Protect society
+Act honorably
+provide deligent
+Protect prefessional
+
+5 pilars IS
+CIA+ Authenticity , non-repudation
+
+Sec control framework
+ISO 2700, PCI DSS, NIST, FedRAMP, Cobit, SABSA
+
+Policy-standards-guidelines-procedures
+
+Mandates, standards, sompliance, audits
+
+GDPR
+lawfulness, purpose ,imitation, data minimization, accuracy, storage limitation, integrity & confidentiality
+
+Copyright 70 years valid
+patent 20 years
+trademarks 10 years
+
+investigation type
+Admininstrative, civic, regulator, criminal, industry standard
+
+CS Framework
+ISO 27001
+
+Risk Framework
+nist sp 800-37, coso, isaca risk
+
+BIA
+Methods
+Survey, financial audit, customer response, industry standard.best practice
+
+NDA/NCA
+
+NIST Cybersecurity Framework
+Identify, protect, detect, respond, recover
+
+Asset-based, outcome based & process based, vulnerabilities based, threat based
+
+mitigate, avoid, transfer, accept risk
 
 
+ALE= ARO*SLE
+SLE=AV*EF
 
+Cost benefit analysis
+CBA = MITIGATED RISK-COST OF CONTROL
 
+3rd assessment & monitor
+governance review, site security review, foreman security audit, pentest
