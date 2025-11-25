@@ -1307,7 +1307,62 @@ ALE= ARO*SLE
 SLE=AV*EF
 
 Cost benefit analysis
-CBA = MITIGATED RISK-COST OF CONTROL
+CBA = MITIGATED RISK (ALE before contol-after control)-COST OF CONTROL
 
 3rd assessment & monitor
 governance review, site security review, foreman security audit, pentest
+
+Domain 2
+CURD creating, updating, reading, deleting
+
+Data classify & category, data access, data security, data retention, data disposal, data encryption, appropriate use of data
+
+unrestricted public data, low sensitivity, moderately restricted, highly restricted
+
+IT Asset Management Life Cycle
+Data security life cycle
+Data life cycle
+
+GDPR: subject, controller, processor, dpo
+Compliance: data steward, data custodian, data owner
+
+EOL policy
+NIST SP 800-30
+
+CASB - enforce enterprise security policies reagrding data and information access
+
+Scoping- removes general baseline , tailoring - alters general baseline
+
+Domain 3
+Fail-safe, Fail-secure, Fail open, Fail-close
+
+keep it simple, trust but verify, zero trust, privacy by design, fail securely
+
+Secure Access Service Edge SASE
+
+security model
+Brewer & nash, clark-wilson, graham-denning, harrison, ruzzo, ullman
+
+Enabling process
+
+The ring model: software perspective
+ring 0: OS & security kernel
+ring 1: device drivers
+ring 2: system utilities
+ring 3: applications
+
+Security architecture
+
+Client-based system, server-based system, database system, industrial control system (air gapped network, jumpbox, perdue model), embedded system, iot, distributed system, virtualized system (host escape, guest escape - vm escape), microservices, containerization, serverless architecture, hpc system, edge & fog computing architecture
+
+symmetric vs assymmetric
+quantum cryptography
+steganography - null chiper
+
+Hashing
+digital cert x.509
+
+Ciphertext-only attack, knowm plaintext attack, chosen ciphertest attack, linear, cryptanalysis, differential cryptianalysis, pass the hash, kerberos exploitation, mitm, side channel attack, fault analysis, probing, replay attack, algebraic attack, rainbow attack, frequescy analysis, birthday attack, factoring attack, dictionary attack, attcaking the random number generator, temporary files attack
+
+
+3-2-1 rule
