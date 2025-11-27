@@ -1366,3 +1366,71 @@ Ciphertext-only attack, knowm plaintext attack, chosen ciphertest attack, linear
 
 
 3-2-1 rule
+
+
+Domain 4
+TCP/IP
+ISO 7 layer 
+
+Physical layer
+
+Amplifier, repeater (remove noise), twisted pair wiring
+Broadband Wireless Access IEEE 802.16
+Zigbee IEEE 802.15.4, low-power devices, low-data-rate encrypted traffic
+
+Cybesecurity kill chain
+CMM Model
+
+Anycast, geocast, logical addressing
+CIDR
+IPV4 - CLass a,b,c,d,e
+
+Application delivery platform (ADP)
+
+Routing protocols
+Distance-vector protocol
+
+Secure protocols- IP sec, AH, ESP, SAs
+
+Transport mode- encrypt only payload
+Tunnel mode- encrypt entire
+
+802.1X PNAC
+
+Well known ports(0-1023)
+registered ports
+
+Domain 5
+IAM Administration
+ICAM, sso, federated identity management
+
+rbac
+hybrid & full
+
+rule based access control
+attribute access control
+risk based access control
+
+RADIUS, TACACS+, LDAP, SAML, Kerberos
+OpenID, OAuth
+
+Testing
+SAST, DAST, SCA, IAST, Vulnerability assessments, pentest, red teaming, bug bounty programs, threat modeling
+
+pdca cycle
+Project zero
+vulnerabilities  Equities Process (VEP)
+
+Evidence
+- Admissibility, accuracy, comprehensibility, objectivity
+
+Change management
+Configuration, vulnerability, patch management
+
+NIST Computer Security Incident Hnadling Lifecycle
+Preparation, detection & analysis, containment, eradication and recovery, post-incident activity
+
+Backup
+Full, incremental, differential
+raid 0, 1 5, 6, 10
+bcdr
