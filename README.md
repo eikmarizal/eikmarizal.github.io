@@ -1434,3 +1434,12 @@ Backup
 Full, incremental, differential
 raid 0, 1 5, 6, 10
 bcdr
+
+Domain 8
+Waterfall, agile
+
+Maturation model
+
+Data masking, data obsfuscation, pseudonymization, anonymization, tokenization
+
+ACID in DBMS
