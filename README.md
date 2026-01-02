@@ -1443,3 +1443,11 @@ Maturation model
 Data masking, data obsfuscation, pseudonymization, anonymization, tokenization
 
 ACID in DBMS
+
+--------------------------------------------------------------------------------
+Best practice
+- Bind tokens to channel (like TLS via channel binding)/ using DPoP with short TTLs and revocation
+- Seccomp/AppArmor and least-privilege nodes (linux)
+- Info - cryptographic method provide Perfect Forward Secrecy
+- SameSite cookies and anti-CSRF tokens
+- 
